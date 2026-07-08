@@ -1,0 +1,13 @@
+pyrtlsdr>=0.3.0
+msgpack>=1.0.7
+numpy>=1.24.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+websockets>=12.0
+luma.lcd>=2.4.0
+Pillow>=10.0.0
+RPi.GPIO>=0.7.1
+
+# Optional AI extras — not required; features degrade gracefully without them:
+#   tflite-runtime   # only used if backend/models/audio_classifier.tflite exists
+#   vosk             # only used if backend/models/vosk-model-small/ exists (Speech-To-Text button)
