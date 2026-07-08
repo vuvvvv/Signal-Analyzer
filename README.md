@@ -14,9 +14,9 @@
 </p>
 <br><br>
 
-Signal Analyzer is a real-time RF spectrum analyzer built with Flutter, Raspberry Pi, and an RTL-SDR receiver. It transforms inexpensive RTL-SDR hardware into a portable signal analyzer capable of scanning the RF spectrum, detecting and classifying signals with an AI-powered anomaly engine, demodulating supported transmissions, and streaming live spectrum data and detections to a mobile application via WebSocket.
+Signal Analyzer is a real-time RF spectrum analyzer built with Flutter, Raspberry Pi, and an RTL SDR receiver. It transforms inexpensive RTL SDR hardware into a portable signal analyzer capable of scanning the RF spectrum, detecting and classifying signals with an AI powered anomaly engine, demodulating supported transmissions, and streaming live spectrum data and detections to a mobile application via WebSocket.
 
-Designed for completely local operation, Signal Analyzer requires no cloud infrastructure, no API keys, and no internet connection. Every component—from SDR acquisition and DSP processing to AI inference and visualization—runs entirely on the Raspberry Pi and communicates with the Flutter app over your local Wi-Fi network, delivering fast, private, and reliable real-time analysis.
+Designed for completely local operation, Signal Analyzer requires no cloud infrastructure, no API keys, and no internet connection. Every component from SDR acquisition and DSP processing to AI inference and visualization runs entirely on the Raspberry Pi and communicates with the Flutter app over your local Wi-Fi network, delivering fast, private, and reliable real-time analysis.
 
 <table align="center">
 <tr>
@@ -136,22 +136,22 @@ Nothing extra to do: the `.so` files are already in `backend/` and Python import
 <tr>
 <td align="center">
 <b>الرئيسيه</b><br>
-<img src="assets/main.jpg" width="220"/>
+<img src="assets/main.jpg" width="300"/>
 </td>
 
 <td align="center">
 <b>Ai </b><br>
-<img src="assets/Ai.jpg" width="220"/>
+<img src="assets/Ai.jpg" width="300"/>
 </td>
 
 <td align="center">
 <b>الاشارة</b><br>
-<img src="assets/signal.jpg" width="220"/>
+<img src="assets/signal.jpg" width="300"/>
 </td>
 
 <td align="center">
 <b>الاعدادات</b><br>
-<img src="assets/set.jpg" width="220"/>
+<img src="assets/set.jpg" width="300"/>
 </td>
 </tr>
 </table>
